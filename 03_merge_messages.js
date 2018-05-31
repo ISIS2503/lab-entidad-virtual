@@ -14,7 +14,7 @@ switch (msg.topic) {
     	break;
 }
 
-if(context.data.sensetime !== null && context.data.temperature !== null) {
+if(context.data.sensetime != null && context.data.temperature != null) {
 		res = {};
     res.payload = JSON.stringify(context.data);
     res.topic = "roomTemperature";
