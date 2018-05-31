@@ -12,4 +12,4 @@ res1.topic = "temperature";
 res2.payload = time;
 res2.topic = "time";
 
-return [res1, res2]
+return [res1, res2];

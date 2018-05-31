@@ -7,12 +7,12 @@ var avgTemp = 0;
 var avgTime = 0;
 
 // procesa la temperatura promedio del intervalo
-for(var i = 0; i < query.length; i++) {    
+for(var i = 0; i < query.length; i++) {
     tempData = tempData + query[i].room.temperature.data;
 }
 
 avgTemp = parseInt(tempData/query.length);
-tempData = 0;eee
+tempData = 0;
 
 // calcula el tiempo estimado del intervalo
 for(var i = 0; i < query.length; i++) {

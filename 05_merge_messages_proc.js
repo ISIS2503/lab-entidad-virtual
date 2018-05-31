@@ -9,7 +9,6 @@ switch (msg.topic) {
       context.data.room = msg.payload;
       msg = null;
       break;
-
   default:
       msg = null;
   	break;
